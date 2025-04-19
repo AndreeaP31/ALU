@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU_proiect.srcs/sources_1/new/ALU.vhd" \
+"../../../../ALU_proiect.srcs/sources_1/new/FloatingPointAdder.vhd" \
+"../../../../ALU_proiect.srcs/sources_1/new/FloatingPointDivider.vhd" \
+"../../../../ALU_proiect.srcs/sources_1/new/FloatingPointMultiplier.vhd" \
+"../../../../ALU_proiect.srcs/sim_1/new/ALUtestbench.vhd" \
+
+# Do not sort compile order
+nosort
